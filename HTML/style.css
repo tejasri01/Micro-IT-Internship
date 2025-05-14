@@ -8,7 +8,7 @@
 html{
     scroll-behavior: smooth;
 }
-/* custom scroll bar */
+
 ::-webkit-scrollbar {
     width: 10px;
 }
@@ -71,7 +71,7 @@ section .title::after{
     background: #fff;
     transform: translateX(-50%);
 }
-/* navbar styling */
+
 .navbar{
     position: fixed;
     width: 100%;
@@ -153,7 +153,7 @@ section .title::after{
 .scroll-up-btn:hover{
     filter: brightness(90%);
 }
-/* home section styling */
+
 .home{
     display: flex;
     background: url("background\ image.jpg") no-repeat center;
@@ -203,7 +203,7 @@ section .title::after{
     color: crimson;
     background: none;
 }
-/* about section styling */
+
 .about .title::after{
     content: "who i am";
 }
@@ -364,7 +364,7 @@ section .title::after{
 .skills-content .right .mysql::before{
     width: 70%;
 }
-/* teams section styling */
+
 
 .teams .carousel .card{
     background: #222;
@@ -424,7 +424,7 @@ section .title::after{
 .owl-dot:hover{
     background: crimson!important;
 }
-/* contact section styling */
+
 .contact .title::after{
     content: "get in touch";
 }
@@ -519,7 +519,7 @@ section .title::after{
   color: crimson;
   background: none;
 }
-/* footer section styling */
+
 footer{
     background: #111;
     padding: 15px 23px;
